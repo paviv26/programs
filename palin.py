@@ -1,6 +1,6 @@
-n=input()
-n1=n[::-1]
-if n==n1:
+p=input()
+k=p[::-1]
+if k==p:
     print("yes")
 else:
     print("no")
