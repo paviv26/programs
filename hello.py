@@ -1,3 +1,2 @@
-n=int(input())
-for i in range(n):
-    print("Hello")
+times=int(input())
+print("Hello"*times)
