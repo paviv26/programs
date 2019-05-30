@@ -1,7 +1,7 @@
 k=int(input())
-fact=1 
+f=1 
 i=1 
 while i<=k:
- fact=fact*i
+ f=f*i
  i=i+1 
-print(fact)
+print(f)
