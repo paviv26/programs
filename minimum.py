@@ -1,4 +1,4 @@
 x=int(input())
 m=list(map(int,input().split()))
-k=max(m)
+k=min(m)
 print(k)
