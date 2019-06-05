@@ -1,2 +1,2 @@
-j=int(input())
-print(j+1)
+j11=int(input())
+print(j11+1)
