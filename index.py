@@ -1,5 +1,4 @@
-n1=input()
-l=list(map(int,input().split()))
-for i in range(0,n1):
-    print(l[i],i)
-
+a=int(input())
+b=list(map(int,input().split()))
+for i in range(a):
+  print(b[i],i)
