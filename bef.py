@@ -1,2 +1,5 @@
 k11=int(input())
-print(k11-1)
+if k11%2==0:
+    print(k11)
+else:
+    print(k11-1)
