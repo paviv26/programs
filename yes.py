@@ -5,6 +5,6 @@ for i in n:
     if i==n2:
         count+=1 
 if count>1:
-    print("Yes")
+    print("yes")
 else:
-    print("No")
+    print("no")
