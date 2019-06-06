@@ -8,4 +8,4 @@ while i<=n:
 if count==2:
   print('yes')
 else: 
-  print('no)
+  print('no')
