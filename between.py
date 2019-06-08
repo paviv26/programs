@@ -1,4 +1,4 @@
-val=input()
+val=int(input())
 n11,n12=map(int,input().split())
 flag=0
 for i in range(n11+1,n12):
