@@ -1,6 +1,4 @@
 n=int(input())
-l=list(map(int,input().split()))
-l1=set(l)
-l2=list(l1)
+l2=list(map(int,input().split()))
 l2.sort()
 print(l2[1])
