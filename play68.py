@@ -1,11 +1,18 @@
 n=int(input())
 l=list(map(int,input().split()))
-d=dict()
-for i in l:
-    keys=d.keys()
-    values=d.values()
-    if i in keys:
-        d[i]+=1
+k=dict()
+for i in range(len(l)):
+    if i==0:
+        key=l[i]
+        k[key]=1
     else:
-        d[i]=1
-print(max(values))
+        current=l[i]
+        if current==key:
+            k[key]=k[key]+1
+            key=current
+        else:
+            key=current
+            k[key]=1
+    
+s=k.values()
+print(max(s))
