@@ -1,0 +1,5 @@
+s=input()
+l=list()
+l.append(s)
+l.append("Answer")
+print(*l)
